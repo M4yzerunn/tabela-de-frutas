@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="whidt=device-whidt,
+initial-scale=1.0">
+<title>Tabelas</title>
+
+  <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table{
+        width: 400px;
+        border-collapse: collapse;
+    }
+
+    td{
+        border: 1px solid black;
+        padding: 8px;
+    }
+    td.dado{
+        background-color: pink;
+    }
+    tr.linha {
+        background-color: aquamarine;
+    }
+    td.melancia {
+        background-color: red;
+    }
+    td.abacaxi {
+        background-color: greenyellow;
+    }
+    td.uva {
+        background-color: blueviolet;
+    }
+    td.banana {
+        background-color: yellow;
+    }
+    td.vazio {
+        background-color: gray;
+    }
+  </style>
+</head>
+<body>
+    <h1>Tabela de frutas</h1>
+     <table>
+        <tr class="linha"> <!--primeira linha-->
+           <td>frutas</td>
+            <td>Meninas</td>
+            <td>Meninos</td>
+            <td>Total</td>
+        </tr>
+        <tr>
+            <td class="melancia">Melancia</td>
+            <td class="dado">13</td>
+            <td class="vazio">12</td>
+            <td class="dado">25</td>
+        </tr>
+        <tr>
+            <td class="abacaxi">Abacaxi</td>
+            <td class="vazio">7</td>
+            <td class="dado">3</td>
+            <td class="vazio">10</td>
+        </tr>
+        <tr>
+            <td class="uva">Uva</td>
+            <td class="vazio">20</td>
+            <td class="vazio">30</td>
+            <td class="dado">50</td>
+        </tr>
+        <tr>
+            <td class="banana">Banana</td>
+            <td class="dado">20</td>
+            <td class="vazio">20</td>
+            <td class="vazio">40</td>
+        </tr>
+     </table>
+</body>
+</html>
